@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ntiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="#0f172a" stroke="rgba(2,132,199,0.3)" stroke-width="2"/>
+  <circle cx="60" cy="52" r="24" fill="rgba(2,132,199,0.12)" stroke="#38bdf8" stroke-width="2"/>
+  <!-- Satellite / Antenna symbol representing Telecom Institute -->
+  <path d="M 48 60 L 72 44" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 44 48 A 18 18 0 0 1 68 36" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 52 40 A 10 10 0 0 1 64 34" fill="none" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="72" cy="44" r="3.5" fill="#38bdf8"/>
+  <text x="60" y="94" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="900" text-anchor="middle" letter-spacing="1.5">NTI</text>
+  <text x="60" y="106" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="0.5">MCIT EGYPT</text>
+</svg>

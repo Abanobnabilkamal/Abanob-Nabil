@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abanob Nabil Kamal | ML &amp; AI Engineer</title>
+  <meta name="description" content="Portfolio of Abanob Nabil Kamal, ML &amp; AI Engineer specializing in Machine Learning, Data Analysis, Python, and Streamlit applications.">
+  <meta name="author" content="Abanob Nabil Kamal">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50' y='65' fill='%23ffffff' font-size='48' font-family='sans-serif' font-weight='bold' text-anchor='middle'>AN</text></svg>">
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       NAVIGATION BAR
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#home" class="brand-link" aria-label="Abanob Nabil Kamal Homepage">
+        <span class="brand-badge">AN</span>
+        <span>Abanob Nabil</span>
+      </a>
+
+      <!-- Desktop & Mobile Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Switcher (Dark / Light Mode) -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark and light mode" title="Switch Theme">
+          <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="nav-toggle-btn" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         1. HERO SECTION
+         ========================================================================== -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-kicker-row">
+            <div class="hero-availability-pill">
+              <span class="pulse-dot"></span>
+              <span>Available for ML &amp; AI Opportunities</span>
+            </div>
+          </div>
+
+          <div class="hero-greeting">Hi, I'm <span class="hero-name">Abanob Nabil Kamal</span></div>
+          <!-- Dominant Headline -->
+          <h1 class="hero-headline">ML &amp; AI Engineer</h1>
+
+          <p class="hero-summary">
+            Computer Science and Artificial Intelligence student at Beni Suef University. Focused on practical Machine Learning, Data Analysis, Python, Data Preprocessing, and deploying interactive Streamlit applications.
+          </p>
+
+          <!-- Core Technical Focus Pills -->
+          <div class="hero-focus-tags">
+            <span class="focus-tag">Machine Learning</span>
+            <span class="focus-tag">Data Analysis</span>
+            <span class="focus-tag">Python</span>
+            <span class="focus-tag">Data Visualization</span>
+            <span class="focus-tag">Data Preprocessing</span>
+            <span class="focus-tag">Streamlit</span>
+          </div>
+
+          <!-- CTAs -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Featured Project</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <button class="btn btn-secondary" data-open-cert>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              <span>View Certificate</span>
+            </button>
+          </div>
+
+          <!-- Profiles Row (Clean & Visible) -->
+          <div class="hero-profiles-row">
+            <span class="hero-profiles-label">Professional Links:</span>
+            <a href="https://github.com/Abanobnabilkamal" target="_blank" rel="noopener noreferrer" class="hero-profile-btn" title="GitHub Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/abanob-nabil-kamal" target="_blank" rel="noopener noreferrer" class="hero-profile-btn" title="LinkedIn Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile Card Visual -->
+        <div class="hero-visual">
+          <div class="profile-card-clean">
+            <div class="profile-image-wrap">
+              <img src="assets/images/abanob_profile.jpg" alt="Abanob Nabil Kamal" class="profile-photo" width="200" height="200">
+            </div>
+            <div class="profile-name-text">Abanob Nabil Kamal</div>
+            <div class="profile-title-text">ML &amp; AI Engineer</div>
+            <div class="profile-location-text">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Beni Suef, Egypt</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. ABOUT SECTION (Clean Two-Column Structure)
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About</span>
+          <h2 class="section-title">Background &amp; Focus</h2>
+          <p class="section-subtitle">
+            Applying machine learning principles to analyze data, evaluate models, and deliver practical software.
+          </p>
+        </div>
+
+        <div class="about-two-col">
+          <!-- Left: Professional Summary -->
+          <div class="about-summary-col">
+            <p class="about-lead-text">
+              I am an undergraduate student in Computer Science and Artificial Intelligence at Beni Suef University, focusing on applied machine learning workflows and end-to-end data pipelines.
+            </p>
+            <p class="about-body-text">
+              My hands-on experience covers data cleaning, handling missing values, exploratory data analysis (EDA), and visualizing complex patterns. I train, compare, and benchmark predictive algorithms—such as Ridge Regression, XGBoost, and neural networks with TensorFlow and Keras—using rigorous evaluation metrics including RMSE, MAE, R², and Confusion Matrices.
+            </p>
+            <p class="about-body-text">
+              To make machine learning solutions accessible and functional for end-users, I specialize in packaging models into interactive Streamlit applications and building clean, reproducible code with Git and Docker.
+            </p>
+          </div>
+
+          <!-- Right: Education & Training -->
+          <div class="about-info-col">
+            <!-- Education Block -->
+            <div class="info-block">
+              <div class="info-block-header">Academic Education</div>
+              <div class="info-degree-title">Computer Science and Artificial Intelligence</div>
+              <div class="info-institution-text">University in Beni Suef</div>
+              <div class="info-meta-row">
+                <span>Study Period: 2025 – 2029</span>
+                <span class="info-gpa-badge">GPA: 3.3</span>
+              </div>
+            </div>
+
+            <!-- Training Block -->
+            <div class="info-block">
+              <div class="info-block-header">Specialized Training</div>
+              <ul class="training-items-list">
+                <li class="training-item">
+                  <span class="training-item-bullet">✔</span>
+                  <div>
+                    <strong>National Telecommunication Institute (NTI)</strong>
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">Summer Machine Learning Course • 120 Total Hours (90h Technical, 30h Freelancing)</div>
+                  </div>
+                </li>
+                <li class="training-item">
+                  <span class="training-item-bullet">✔</span>
+                  <div>
+                    <strong>Digital Egypt Pioneers Initiative (DEPI)</strong>
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">AI &amp; Data Science Track • Ministry of Communications and Information Technology (MCIT)</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. SKILLS SECTION (4 Columns, Readable Tags, No Fake Levels)
+         ========================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            Core technologies and methodologies used across modeling, analysis, and software development.
+          </p>
+        </div>
+
+        <div class="skills-quad-grid">
+          <!-- 1. Machine Learning -->
+          <div class="skill-category-box">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
+              <span>Machine Learning</span>
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag-item">TensorFlow</span>
+              <span class="skill-tag-item">Keras</span>
+              <span class="skill-tag-item">Scikit-learn</span>
+              <span class="skill-tag-item">XGBoost</span>
+              <span class="skill-tag-item">Classification</span>
+              <span class="skill-tag-item">Regression</span>
+              <span class="skill-tag-item">Model Comparison</span>
+              <span class="skill-tag-item">Feature Importance</span>
+              <span class="skill-tag-item">Confusion Matrix</span>
+              <span class="skill-tag-item">Regression Metrics</span>
+            </div>
+          </div>
+
+          <!-- 2. Data Analysis & Visualization -->
+          <div class="skill-category-box">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              <span>Data &amp; Visualization</span>
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag-item">Pandas</span>
+              <span class="skill-tag-item">NumPy</span>
+              <span class="skill-tag-item">Matplotlib</span>
+              <span class="skill-tag-item">Seaborn</span>
+              <span class="skill-tag-item">Data Cleaning</span>
+              <span class="skill-tag-item">Exploratory Data Analysis</span>
+              <span class="skill-tag-item">Data Visualization</span>
+            </div>
+          </div>
+
+          <!-- 3. Programming -->
+          <div class="skill-category-box">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <span>Programming</span>
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag-item">Python</span>
+              <span class="skill-tag-item">C++</span>
+              <span class="skill-tag-item">SQL</span>
+            </div>
+          </div>
+
+          <!-- 4. Tools & Technologies -->
+          <div class="skill-category-box">
+            <h3 class="skill-box-title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              <span>Tools &amp; Workflow</span>
+            </h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag-item">Streamlit</span>
+              <span class="skill-tag-item">Git</span>
+              <span class="skill-tag-item">GitHub</span>
+              <span class="skill-tag-item">Jupyter</span>
+              <span class="skill-tag-item">VS Code</span>
+              <span class="skill-tag-item">Docker</span>
+              <span class="skill-tag-item">Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. FEATURED PROJECT SECTION (Large 2-Column Showcase)
+         ========================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Project</span>
+          <h2 class="section-title">House Price Prediction System</h2>
+          <p class="section-subtitle">
+            An end-to-end interactive machine learning project built for house price analysis, modeling, and real-time prediction.
+          </p>
+        </div>
+
+        <article class="project-large-card">
+          <!-- Large Project Screenshot -->
+          <div class="project-visual-side">
+            <img src="assets/images/house_price_preview.svg" alt="House Price Prediction System Interface and Analysis Dashboard" class="project-large-image" width="800" height="480" loading="lazy">
+          </div>
+
+          <!-- Project Details -->
+          <div class="project-content-side">
+            <div>
+              <div class="project-kicker">Machine Learning / Streamlit Application</div>
+              <h3 class="project-main-title">House Price Prediction System</h3>
+              <p class="project-desc-text">
+                An interactive machine learning application for house price analysis and prediction. It integrates data cleaning, exploratory data analysis (EDA), visual diagnostics, model training, comparison, and an interactive prediction interface.
+              </p>
+
+              <!-- Main Capabilities -->
+              <div class="project-specs-group">
+                <div class="specs-title">Main Capabilities</div>
+                <div class="capabilities-grid">
+                  <div class="cap-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Data Cleaning</span>
+                  </div>
+                  <div class="cap-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Exploratory Data Analysis (EDA)</span>
+                  </div>
+                  <div class="cap-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Data Visualization</span>
+                  </div>
+                  <div class="cap-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Classification &amp; Regression</span>
+                  </div>
+                  <div class="cap-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Model Comparison</span>
+                  </div>
+                  <div class="cap-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Feature Importance</span>
+                  </div>
+                  <div class="cap-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Confusion Matrix</span>
+                  </div>
+                  <div class="cap-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Regression Metrics</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Models Used -->
+              <div class="project-specs-group">
+                <div class="specs-title">Models Used</div>
+                <div class="models-chips-group">
+                  <span class="model-chip">XGBoost Classifier</span>
+                  <span class="model-chip">Ridge Regression</span>
+                  <span class="model-chip">XGBoost Regressor</span>
+                </div>
+              </div>
+
+              <!-- Technologies -->
+              <div class="tech-badges-row">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Streamlit</span>
+                <span class="tech-badge">Pandas</span>
+                <span class="tech-badge">NumPy</span>
+                <span class="tech-badge">Matplotlib</span>
+                <span class="tech-badge">Seaborn</span>
+                <span class="tech-badge">Scikit-learn</span>
+                <span class="tech-badge">XGBoost</span>
+              </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="project-cta-row">
+              <a href="https://github.com/Abanobnabilkamal/NTI_Graduation_Project" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View on GitHub</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. CERTIFICATES SECTION (2 Columns, Larger Images, Clear Hierarchy)
+         ========================================================================== -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Certificates</span>
+          <h2 class="section-title">Training &amp; Certificates</h2>
+          <p class="section-subtitle">
+            Accredited qualifications and training programs completed in Machine Learning and Artificial Intelligence.
+          </p>
+        </div>
+
+        <div class="certificates-twin-grid">
+          <!-- 1. NTI Certificate -->
+          <div class="cert-card-box">
+            <div>
+              <h3 class="cert-title-text">Machine Learning Summer Training</h3>
+              <div class="cert-org-text">National Telecommunication Institute (NTI) &amp; ITIDA</div>
+
+              <div class="cert-meta-tags">
+                <span class="cert-meta-item">120 Total Hours</span>
+                <span class="cert-meta-item">90 hrs Technical</span>
+                <span class="cert-meta-item">30 hrs Freelancing</span>
+                <span class="cert-meta-item">Student ID: 309326</span>
+              </div>
+
+              <!-- Large Certificate Preview Image -->
+              <div class="cert-image-frame" data-open-cert title="Click to view full certificate">
+                <img src="assets/images/certificate_nti.jpg" alt="Official NTI Machine Learning Certificate of Training - Abanob Nabil Kamal" loading="lazy">
+                <div class="cert-image-hover-msg">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                  <span>Click to Enlarge</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="cert-card-actions">
+              <button class="btn btn-primary btn-sm" data-open-cert>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <span>View Certificate</span>
+              </button>
+              <a href="assets/certificate_nti.pdf" download="Abanob_Nabil_NTI_Certificate.pdf" class="btn btn-secondary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download PDF</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2. DEPI Initiative -->
+          <div class="cert-card-box">
+            <div>
+              <h3 class="cert-title-text">Digital Egypt Pioneers Initiative (DEPI)</h3>
+              <div class="cert-org-text">Ministry of Communications and Information Technology (MCIT)</div>
+
+              <div class="cert-meta-tags">
+                <span class="cert-meta-item">AI &amp; Data Science Track</span>
+                <span class="cert-meta-item">MCIT Egypt</span>
+              </div>
+
+              <p style="font-size: 0.95rem; color: var(--text-body); line-height: 1.7; margin-bottom: 1.25rem;">
+                Flagship national training initiative organized by the Ministry of Communications and Information Technology (MCIT) to cultivate advanced competence in artificial intelligence, practical machine learning workflows, and data pipelines.
+              </p>
+
+              <div style="display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1.5rem;">
+                <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--primary);">✔</span>
+                  <span>Machine Learning foundations and algorithm implementations</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--primary);">✔</span>
+                  <span>Exploratory data analysis &amp; feature transformation</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.88rem; color: var(--text-body);">
+                  <span style="color: var(--primary);">✔</span>
+                  <span>Collaborative software workflows and version control</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="cert-card-actions">
+              <a href="https://www.linkedin.com/in/abanob-nabil-kamal" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>View on LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. WHAT I BUILD (4 Columns)
+         ========================================================================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Capabilities</span>
+          <h2 class="section-title">What I Build</h2>
+          <p class="section-subtitle">
+            Practical development areas spanning machine learning, exploratory analytics, and interactive web tools.
+          </p>
+        </div>
+
+        <div class="services-quad-grid">
+          <!-- 1. ML Models -->
+          <div class="service-card-box">
+            <div class="service-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            </div>
+            <h3 class="service-item-title">Machine Learning Models</h3>
+            <p class="service-item-desc">
+              Developing and benchmarking regression and classification models using Scikit-learn, XGBoost, and neural networks in TensorFlow and Keras.
+            </p>
+          </div>
+
+          <!-- 2. EDA & Visualization -->
+          <div class="service-card-box">
+            <div class="service-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+            <h3 class="service-item-title">EDA &amp; Data Visualization</h3>
+            <p class="service-item-desc">
+              Performing exploratory data analysis to inspect distributions, examine correlations, and generate informative charts with Pandas, Matplotlib, and Seaborn.
+            </p>
+          </div>
+
+          <!-- 3. Streamlit Apps -->
+          <div class="service-card-box">
+            <div class="service-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            <h3 class="service-item-title">Streamlit Applications</h3>
+            <p class="service-item-desc">
+              Deploying interactive web applications with Streamlit to enable direct testing, user parameter inputs, and real-time model inferences.
+            </p>
+          </div>
+
+          <!-- 4. Data Preprocessing -->
+          <div class="service-card-box">
+            <div class="service-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+            </div>
+            <h3 class="service-item-title">Data Preprocessing &amp; SQL</h3>
+            <p class="service-item-desc">
+              Cleaning raw datasets, handling missing values, encoding categorical variables, scaling numerical inputs, and querying relational data with SQL.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. CONTACT SECTION ("Let's Work Together")
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-clean-box">
+          <h2 class="contact-headline">Let's Work Together</h2>
+          <p class="contact-subtext">
+            I am available for machine learning and AI internships, projects, and collaborative opportunities. Feel free to connect directly.
+          </p>
+
+          <div class="contact-buttons-row">
+            <a href="mailto:AbanobNabilKamalShehata@gmail.com" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>Email Me</span>
+            </a>
+            <a href="https://www.linkedin.com/in/abanob-nabil-kamal" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/Abanobnabilkamal" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <div class="contact-meta-info-row">
+            <div class="contact-meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Beni Suef, Egypt</span>
+            </div>
+            <div class="contact-meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>01200556873</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       10. FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-name">Abanob Nabil Kamal</div>
+      <div class="footer-role">ML &amp; AI Engineer</div>
+      <div class="footer-links">
+        <a href="https://github.com/Abanobnabilkamal" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/abanob-nabil-kamal" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span>•</span>
+        <a href="mailto:AbanobNabilKamalShehata@gmail.com">Email</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Abanob Nabil Kamal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       CERTIFICATE LIGHTBOX MODAL
+       ========================================================================== -->
+  <div class="cert-modal-backdrop" id="certModal" role="dialog" aria-modal="true" aria-labelledby="modalCertTitle">
+    <div class="cert-modal-dialog">
+      <div class="cert-modal-header">
+        <h4 id="modalCertTitle">National Telecommunication Institute (NTI) Certificate of Training</h4>
+        <button class="btn-modal-close" data-close-cert aria-label="Close certificate modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="cert-modal-body">
+        <img src="assets/images/certificate_nti.jpg" alt="Official NTI Machine Learning Certificate of Training - Abanob Nabil Kamal">
+      </div>
+
+      <div class="cert-modal-footer">
+        <div style="font-size: 0.88rem; color: var(--text-muted);">
+          Student ID: <strong style="color: var(--primary);">309326</strong> • 120 Total Hours
+        </div>
+        <div style="display: flex; gap: 0.65rem;">
+          <a href="assets/certificate_nti.pdf" download="Abanob_Nabil_NTI_Certificate.pdf" class="btn btn-primary btn-sm">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            <span>Download PDF</span>
+          </a>
+          <button class="btn btn-secondary btn-sm" data-close-cert>Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- Application Script -->
+  <script src="script.js"></script>
+</body>
+</html>
